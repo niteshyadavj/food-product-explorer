@@ -1,8 +1,30 @@
-# React + Vite
+# food-product-explorer
+### Steps to Complete the Food Product Explorer Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Setup**:
+  - Create a React project.
+  - Fetch API requests and Install Bootstrap for styling.
 
-Currently, two official plugins are available:
+- **API Integration**:
+  - Connect to the (https://world.openfoodfacts.org/).
+  - Test endpoints for product search, barcode , and categories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Homepage**:
+  - Display a list of products (name, image, ingredients, category, nutrition grade).
+  - Add pagination with a "Load More" button.
+
+- **Search Functionality**:
+  - Implement a search bar for product names.
+  - Add a barcode search feature.
+
+- **Category Filter**:
+  - Create a dropdown or sidebar to filter products by category.
+
+- **Sorting**:
+  - Allow sorting by product name and nutrition grade (A-Z, Z-A).
+
+- **Product Detail Page**:
+  - Create a page displaying detailed information about a clicked product (ingredients, nutrition, labels).
+
+- **Responsive Design**:
+  - Use Bootstrap to ensure responsiveness across devices.
